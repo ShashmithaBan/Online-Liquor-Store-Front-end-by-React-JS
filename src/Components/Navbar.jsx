@@ -25,7 +25,7 @@ export const Navbar = () => {
 
   return (
     <nav className="navbar-expand-lg fixed-top">
-      <div className="navbar bg-body-tertiary mx-5 my-2 rounded-1  px-3 py-1 fixed bg-opacity-50">
+      <div className="navbar bg-body-tertiary mx-5 my-1 rounded-1  px-3 py-1 fixed bg-opacity-75">
         <div className="nav-logo">
           <a><img src={mainLogo} alt="" className='img-fluid float-start' style={{ width: '50px' }} /></a>
         </div>
