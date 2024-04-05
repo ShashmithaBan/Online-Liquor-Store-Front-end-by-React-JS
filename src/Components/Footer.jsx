@@ -1,29 +1,24 @@
-import React from 'react';
-import Phone from '../Assets/phone-solid.svg';
-import Email from '../Assets/envelope-solid.svg';
+import React from 'react'
 
 export const Footer = () => {
   return (
-    <div className=" mt-1 footer  text-bg-dark">
-      <div className=" row">
-        <div className="col-md-6 col-lg-4 col-12 py-5 ">
-          <h5 className="stay fw-bold"><b>STAY IN TOUCH</b></h5>
-          <div className="p-address  ">
-            <p>Ek Bar,<br/>
+   <div className="Footer">
+    <div className="row py-5 px-5 justify-content-center">
+        <div className="col-md-6 col-lg-4 col-12 ft-1  ">
+            <h5 className='fw-bold '>STAY IN TOUCH</h5>
+            <p>
+            Ek Bar,<br/>
             No 102 and 104,<br/>
             Kumaran Ratnam Road,<br/>
             Colombo 2,<br/>
-            <b>Sri Lanka</b></p>
-            <br /><br />
-            <div className="mail-address fw-bold ">
-              <a href="www.gon.com">ebinfo@ekbar.lk</a>
-            </div>
+            <b>Sri Lanka</b> 
+            </p>
+            <a href="www.gon.com">ebinfo@ekbar.lk</a>
             <p>Customer Service(9.00AM – 9.00PM)</p>
-          </div>
         </div>
-        <div className="col-md-6 col-lg-2 col-12 py-5 ">
-          <h5 className="product fw-bold">PRODUCT RANGE</h5>
-          <ul>
+        <div className="col-md-6 col-lg-2 col-12 ft-2">
+        <h5 className='fw-bold'>PRODUCT RANGE</h5>
+        <ul>
             <li>
             <a href="catogories_wine.php">Wine</a>
             </li>
@@ -38,23 +33,20 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="col-md-6 col-lg-2 col-12 py-5">
-          <h5 className="about fw-bold">ABOUT US</h5>
-          <ul>
+        <div className="col-md-6 col-lg-2 col-12 ft-3">
+        <h5 className='fw-bold'>ABOUT US</h5>
+        <ul>
             <li>
             <a href="aboutus.php">About us</a>
             </li>
-          </ul>  
-          <h5 className="about fw-bold pt-5">CONTACT US</h5>
-          <div className=" justify-contect-start g-2">
-          <img src={Phone} alt="phone icon " style={{width:"7%" , color:"white"}} />
-          <p className='d-inline-block px-2' >+94 778294885</p>
-          </div>
-          
+        </ul> 
+        <h5 className="about fw-bold pt-2">CONTACT US</h5>
+        
+          <p className='d-inline-block '><i className="fa-solid fa-phone mx-1"></i>- +94 778294885</p>
         </div>
-        <div className="col-md-6 col-lg-3 col-12 py-5">
-          <h5 className="place fw-bold">PLACE AN ORDER</h5>
-          <ul>
+        <div className="col-md-6 col-lg-3 col-12 ft-4 ">
+        <h5 className='fw-bold'>PLACE AN ORDER</h5>
+        <ul>
             <li>
             <a href="#">Place an Order</a>
             </li>
@@ -69,7 +61,8 @@ export const Footer = () => {
             </li>
           </ul>  
         </div>
-      </div>
     </div>
-  );
-};
+   </div>
+   
+  )
+}

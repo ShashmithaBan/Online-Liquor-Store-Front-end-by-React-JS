@@ -3,6 +3,7 @@ import { Navbar } from './Components/Navbar';
 import { Home } from './Components/Home';
 import {Footer} from './Components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { CreditFooter } from './Components/CreditFooter';
 
 
 
@@ -12,6 +13,7 @@ function App() {
       <Navbar />
       <Home />
       <Footer/>
+      <CreditFooter />
     </div>
   );
 }
