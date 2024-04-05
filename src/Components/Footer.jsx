@@ -3,7 +3,7 @@ import React from 'react'
 export const Footer = () => {
   return (
    <div className="Footer">
-    <div className="row py-5 px-5 justify-content-center">
+    <div className="row py-5 px-5 justify-content-center mx-auto">
         <div className="col-md-6 col-lg-4 col-12 ft-1  ">
             <h5 className='fw-bold '>STAY IN TOUCH</h5>
             <p>
@@ -37,7 +37,7 @@ export const Footer = () => {
         <h5 className='fw-bold'>ABOUT US</h5>
         <ul>
             <li>
-            <a href="aboutus.php">About us</a>
+            <a href="./about">About us</a>
             </li>
         </ul> 
         <h5 className="about fw-bold pt-2">CONTACT US</h5>
@@ -61,7 +61,19 @@ export const Footer = () => {
             </li>
           </ul>  
         </div>
+        
+        <div className="footer-icons">
+        <div className="last-footer pt-5 text-center fw-light" style={{fontFamily: "Cedarville Cursive" , marginBottom: "0"}}>
+        <p className='pt-0 mt-0'>&copy;    Designed By <span className='fw-bold' style={{color:"rgb(0, 166, 255)"}}>Shashmitha Bandara</span> </p>
+        
+            <a href=''><i class="fa-brands fa-facebook"></i></a> 
+            <a href=''><i class="fa-brands fa-twitter"></i></a> 
+            <a href=''><i class="fa-brands fa-instagram"></i></a> 
+            <a href=''><i class="fa-brands fa-linkedin-in"></i></a>  
+        </div>
     </div>
+    </div>
+    
    </div>
    
   )

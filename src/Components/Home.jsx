@@ -8,7 +8,7 @@ export const Home = () => {
     <div className="home mt-5 mb-0 justify-content-center">
 
     <section className="home-top" style={{ margin: "0", padding: "0" }}>
-      <p className="lead justify-contect-center text-muted pt-2 pb-0 m-0" style ={{fontSize : "90%"}}>
+      <p className="lead text-center text-muted pt-2 pb-0 m-0" style ={{fontSize : "90%"}}>
 As Sri Lanka's premier destination for premium wines and spirits, EkBar invites you to indulge in our exquisite collection.
       </p>
      <video src={HomeVid} autoPlay muted loop type='video/mp4' className='justify-content-center  pt-0' style={{width : "100%" , objectFit : "Fill", height: "99vh",zIndex: "-10000"   }}/>
@@ -22,10 +22,12 @@ As Sri Lanka's premier destination for premium wines and spirits, EkBar invites 
 
 
     <section className="home-expolrer ">
-        <div className="text-bg-dark d-flex justify-content-around align-items-center p-5 " >
+        <div className=" d-flex justify-content-around align-items-center p-4 " style={{backgroundColor:"rgb(36, 36, 36)" , color:"white"}} >
             <div className="col-5  justify-content-center container">
                  <img src={SeLeft} alt="" style={{width:"85vh"}} className='py-3 image-fluid'/>
-                 <a href='#'><button type="button" className=" btn btn-light px-5 py-2 rounded-3" style={{fontSize:"5vh"}}>Start Exploring</button></a>
+                 <div className="btn d-flex justify-content-center ">
+                 <a href='#'><button type="button" className=" btn btn-light px-5 py-2 rounded-3 " style={{fontSize:"5vh"}}>Start Exploring</button></a>
+                 </div>
             </div>
 
             <div className="col-5 container" style={{paddingTop:"3%"}}>

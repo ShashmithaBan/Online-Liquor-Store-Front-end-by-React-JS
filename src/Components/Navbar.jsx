@@ -30,7 +30,7 @@ export const Navbar = () => {
           <a><img src={mainLogo} alt="" className='img-fluid float-start' style={{ width: '50px' }} /></a>
         </div>
         <div className="collapse navbar-collapse justify-content-center  fw-light" id="navbarNav">
-          <ul className="navbar-nav  "> 
+          <ul className="navbar-nav mx-auto "> 
          <a href='#' className='nav-item text-decoration-none mx-4 py-2 text-dark'><li>Home</li></a>
             <li
               className="nav-item dropdown mx-4"
