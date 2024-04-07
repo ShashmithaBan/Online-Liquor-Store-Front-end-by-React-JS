@@ -1,6 +1,7 @@
 import React from 'react'
 import HomeVid from '../Assets/video-home.mp4'
 import SeLeft from '../Assets/Home-rum-collectio.png'
+import BSicon from '../Assets/CULEMBORG-SWEET-RED-750ML-X-6-1.webp'
 
 export const Home = () => {
   return (
@@ -44,6 +45,34 @@ As Sri Lanka's premier destination for premium wines and spirits, EkBar invites 
 
         </div>
     </section>
+
+    <section className="best-selling my-4 ">
+    <div className="bs-title">
+        <h1 className="text-center">
+            Best Selling
+        </h1>
+        <div className="d-flex">
+        <div className=" d-flex flex-wrap justify-content-center  mx-5">
+            <div className="col-4 p-1  "  style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
+                <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
+            </div>
+            <div className="col-4  p-1"  style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
+            <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
+            </div>
+            <div className="col-4 p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
+            <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
+            </div>
+            <div className="col-4  p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
+            <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
+            </div>
+            <div className="col-4 p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}></div>
+            <div className="col-4  p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}></div>
+        </div>
+        </div>
+        
+    </div>
+</section>
+
     
     </div>
     
