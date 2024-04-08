@@ -69,3 +69,9 @@ a{
   font-weight: bolder;
   font-family: "Modern Antiqua", serif;
 }
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 100%; 
+  }
+}

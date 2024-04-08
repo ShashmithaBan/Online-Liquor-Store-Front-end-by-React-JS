@@ -46,29 +46,102 @@ As Sri Lanka's premier destination for premium wines and spirits, EkBar invites 
         </div>
     </section>
 
-    <section className="best-selling my-4 ">
+    <section className="best-selling my-5 ">
     <div className="bs-title">
         <h1 className="text-center">
             Best Selling
         </h1>
-        <div className="d-flex">
-        <div className=" d-flex flex-wrap justify-content-center  mx-5">
-            <div className="col-4 p-1  "  style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
-                <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
-            </div>
-            <div className="col-4  p-1"  style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
-            <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
-            </div>
-            <div className="col-4 p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
-            <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
-            </div>
-            <div className="col-4  p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}>
-            <img src={BSicon} alt="" className="img-fluid border" style={{width:"35%"}} />
-            </div>
-            <div className="col-4 p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}></div>
-            <div className="col-4  p-1" style={{ flex: '0 0 33.33%', maxWidth: '33.33%' }}></div>
+        <div className="d-flex mx-auto">
+  <div className="d-flex flex-wrap justify-content-center mx-5 my-3">
+    <div className="col-12 col-md-4 p-1 border rounded-3 m-1" style={{ width: "28%" }} >
+        <div className="d-flex justify-content-center align-items-center">
+        <img src={BSicon} alt="" className="img-fluid " style={{ width: "50%" }} />
         </div>
+        <div className="text-center my-2">
+        <p className='text-muted d-block' style={{ lineHeight: "20%" ,fontSize:"1.2vw" }}>Red Wine</p>
+      <h3 style={{fontSize:"2vw" , fontWeight:"bold"}}>ZONIN SASSEO PRIMI SALENTO IGT 750ML</h3>
+      <h5 className='fw-bold' style={{ lineHeight: "80%", color:"rgb(0, 166, 255)" , fontSize:"1.4vw"}}>LKR 8,500.00</h5>
         </div>
+      
+      <div className="btn" style={{ width: "100%" }}>
+        <button className="btn btn-outline-dark" style={{width:"100%", fontSize:'1.2vw'}}>View Product</button>
+      </div>
+    </div>
+    <div className="col-12 col-md-4 p-1 border rounded-3 m-1" style={{ width: "28%" }} >
+        <div className="d-flex justify-content-center align-items-center">
+        <img src={BSicon} alt="" className="img-fluid " style={{ width: "50%" }} />
+        </div>
+        <div className="text-center my-2">
+        <p className='text-muted d-block' style={{ lineHeight: "20%" ,fontSize:"1.2vw" }}>Red Wine</p>
+      <h3 style={{fontSize:"2vw" , fontWeight:"bold"}}>ZONIN SASSEO PRIMI SALENTO IGT 750ML</h3>
+      <h5 className='fw-bold' style={{ lineHeight: "80%", color:"rgb(0, 166, 255)" , fontSize:"1.4vw"}}>LKR 8,500.00</h5>
+        </div>
+      
+      <div className="btn" style={{ width: "100%" }}>
+        <button className="btn btn-outline-dark" style={{width:"100%", fontSize:'1.2vw'}}>View Product</button>
+      </div>
+    </div>
+    <div className="col-12 col-md-4 p-1 border rounded-3 m-1" style={{ width: "28%" }} >
+        <div className="d-flex justify-content-center align-items-center">
+        <img src={BSicon} alt="" className="img-fluid " style={{ width: "50%" }} />
+        </div>
+        <div className="text-center my-2">
+        <p className='text-muted d-block' style={{ lineHeight: "20%" ,fontSize:"1.2vw" }}>Red Wine</p>
+      <h3 style={{fontSize:"2vw" , fontWeight:"bold"}}>ZONIN SASSEO PRIMI SALENTO IGT 750ML</h3>
+      <h5 className='fw-bold' style={{ lineHeight: "80%", color:"rgb(0, 166, 255)" , fontSize:"1.4vw"}}>LKR 8,500.00</h5>
+        </div>
+      
+      <div className="btn" style={{ width: "100%" }}>
+        <button className="btn btn-outline-dark" style={{width:"100%", fontSize:'1.2vw'}}>View Product</button>
+      </div>
+    </div>
+    <div className="col-12 col-md-4 p-1 border rounded-3 m-1" style={{ width: "28%" }} >
+        <div className="d-flex justify-content-center align-items-center">
+        <img src={BSicon} alt="" className="img-fluid " style={{ width: "50%" }} />
+        </div>
+        <div className="text-center my-2">
+        <p className='text-muted d-block' style={{ lineHeight: "20%" ,fontSize:"1.2vw" }}>Red Wine</p>
+      <h3 style={{fontSize:"2vw" , fontWeight:"bold"}}>ZONIN SASSEO PRIMI SALENTO IGT 750ML</h3>
+      <h5 className='fw-bold' style={{ lineHeight: "80%", color:"rgb(0, 166, 255)" , fontSize:"1.4vw"}}>LKR 8,500.00</h5>
+        </div>
+      
+      <div className="btn" style={{ width: "100%" }}>
+        <button className="btn btn-outline-dark" style={{width:"100%", fontSize:'1.2vw'}}>View Product</button>
+      </div>
+    </div>
+    <div className="col-12 col-md-4 p-1 border rounded-3 m-1" style={{ width: "28%" }} >
+        <div className="d-flex justify-content-center align-items-center">
+        <img src={BSicon} alt="" className="img-fluid " style={{ width: "50%" }} />
+        </div>
+        <div className="text-center my-2">
+        <p className='text-muted d-block' style={{ lineHeight: "20%" ,fontSize:"1.2vw" }}>Red Wine</p>
+      <h3 style={{fontSize:"2vw" , fontWeight:"bold"}}>ZONIN SASSEO PRIMI SALENTO IGT 750ML</h3>
+      <h5 className='fw-bold' style={{ lineHeight: "80%", color:"rgb(0, 166, 255)" , fontSize:"1.4vw"}}>LKR 8,500.00</h5>
+        </div>
+      
+      <div className="btn" style={{ width: "100%" }}>
+        <button className="btn btn-outline-dark" style={{width:"100%", fontSize:'1.2vw'}}>View Product</button>
+      </div>
+    </div>
+    <div className="col-12 col-md-4 p-1 border rounded-3 m-1" style={{ width: "28%" }} >
+        <div className="d-flex justify-content-center align-items-center">
+        <img src={BSicon} alt="" className="img-fluid " style={{ width: "50%" }} />
+        </div>
+        <div className="text-center my-2">
+        <p className='text-muted d-block' style={{ lineHeight: "20%" ,fontSize:"1.2vw" }}>Red Wine</p>
+      <h3 style={{fontSize:"2vw" , fontWeight:"bold"}}>ZONIN SASSEO PRIMI SALENTO IGT 750ML</h3>
+      <h5 className='fw-bold' style={{ lineHeight: "80%", color:"rgb(0, 166, 255)" , fontSize:"1.4vw"}}>LKR 8,500.00</h5>
+        </div>
+      
+      <div className="btn" style={{ width: "100%" }}>
+        <button className="btn btn-outline-dark" style={{width:"100%", fontSize:'1.2vw'}}>View Product</button>
+      </div>
+    </div>
+    
+  </div>
+</div>
+
+
         
     </div>
 </section>
