@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
-import mainLogo from '../Assets/main_logo.png';
-import cart from '../Assets/bag.svg';
-import account from '../Assets/person-circle.svg'
+import mainLogo from '../../Assets/main_logo.png';
+import cart from '../../Assets/bag.svg';
+import account from '../../Assets/person-circle.svg'
 
 
 

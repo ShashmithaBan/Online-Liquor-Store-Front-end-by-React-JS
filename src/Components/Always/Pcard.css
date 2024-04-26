@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Modern+Antiqua&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+:root{
+  --primary-color:rgb(36, 36, 36);
+  --secondary-color:white;
+  --success-color: rgb(0, 166, 255);
+}
+*{
+  font-family: "Roboto", sans-serif;
+  margin: 0%;
+  padding: 0%;
+}
+.p_card{
+    background-color: var(--secondary-color);
+ border: 1px solid rgb(168, 168, 168);
+ border-radius: 2%;
+ 
+}
+.p_card:hover{
+    transition: all ease-in-out 0.8s;
+ transform: scale(1.05);
+ border: 2px solid var(--success-color);
+}
