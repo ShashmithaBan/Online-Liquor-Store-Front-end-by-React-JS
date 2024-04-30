@@ -1,19 +1,20 @@
 import React from 'react'
 import './About.css'
 import { Home } from '../Home'
+import Logo from '../../Assets/main_logo.png'
 
 
 export const About = () => {
   return (
-    <div className='my-5 mx-5 p-4 container'>
-      <div className="title row fw-bold fs-2">
+    <div className='my-5 p-4 container'>
+      <div className="title col-md-3 fw-bold fs-2 ">
         About us
       </div>
-      <div className="text">
+      <div className="text col-md-12 justify-content-center">
       <p className="description p-4">
 Wine World is the highest acclaimed premium wines and spirits concierge service in Sri Lanka who’s purpose is to satisfy and cater to the unique beverage needs of all Sri Lankans.<br/>
 Our website offers an exclusive product portfolio extending from Wines, to Whiskeys, to Brandies, to Arracks and many other genres of spirits sourced from all over the world, which could now be received by you right on to your door step in 2 to 7 days, anywhere in the island!<br/><br/>
-<span>Find out more on Concierge services</span>
+Find out more on Concierge services<br/>
 
 The services we offer include;<br/>
 <ul>
@@ -32,9 +33,11 @@ The services we offer include;<br/>
 </ul>
 
 <span>Start Shopping Now!</span>
-<a href = "./">Click Here</a>
+<a href = "./"> Click Here</a>
 </p>
       </div>
+      <img className='col-md-5 float-right d-none d-md-block' src={Logo} alt="" />
+
 
 
     </div>

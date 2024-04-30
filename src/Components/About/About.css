@@ -14,6 +14,7 @@
 }
 a{
   text-decoration: none !important;
+  color:black;
 }
 
 /*---------------- body ----------------*/
@@ -24,4 +25,8 @@ a{
 }
 span{
     color: var(--success-color);
+}
+.float-right {
+  float: right;
+  z-index: 0;
 }
